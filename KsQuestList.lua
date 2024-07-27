@@ -7,9 +7,13 @@
 --6 LE_EXPANSION_LEGION	Legion
 --7 LE_EXPANSION_BATTLE_FOR_AZEROTH	Battle for Azeroth
 --8 LE_EXPANSION_SHADOWLANDS	Shadowlands
---9 LE_EXPANSION_10_0	
---10 LE_EXPANSION_11_0	
+--9 LE_EXPANSION_DRAGONFLIGHT	Dragonflight
+--10 LE_EXPANSION_WAR_WITHIN	War Within
 
+
+-- quest ID's can be found on wowhead pretty easily.
+-- raid id's can be found here: https://wago.tools/db2/Map, ID column OR https://wago.tools/db2/JournalInstance, MapID column.
+-- boss id comes from the journal, not encounter, list here: https://wago.tools/db2/JournalEncounter, ID column.
 questlist = {
 	[1] = {
 		["expname"] = "Warlords of Draenor",
@@ -157,6 +161,134 @@ questlist = {
 					[3] = {
 						["dif"] = "Normal",
 						["qs"] = { [1]={["id"]=58373, ["boss"]=nil},},
+					},
+				},
+			}, --raid1 end
+		},-- raidlist end
+	}, -- exp end
+	-- LE_EXPANSION_SHADOWLANDS
+	[4] = {
+		["expname"] = "Shadowlands",
+		["expid"] = LE_EXPANSION_SHADOWLANDS,
+		["raids"] = {
+			[1] = {
+				["raidname"] = "CN",
+				["raidid"] = 2296,
+				["rqs"] = {
+					-- sludgefist
+					[1] = {
+						["dif"] = "Mythic",
+						["qs"] = { [1]={["id"]=62056, ["boss"]=2394},},
+					},
+					[2] = {
+						["dif"] = "Heroic",
+						["qs"] = { [1]={["id"]=62055, ["boss"]=2394},},
+					},
+					[3] = {
+						["dif"] = "Normal",
+						["qs"] = { [1]={["id"]=62054, ["boss"]=2394},},
+					},
+				},
+			}, --raid1 end
+			[2] = {
+				["raidname"] = "SoD",
+				["raidid"] = 2450,
+				["rqs"] = {
+					-- kelthuzad
+					[1] = {
+						["dif"] = "Mythic",
+						["qs"] = { [1]={["id"]=64599, ["boss"]=2440},},
+					},
+					[2] = {
+						["dif"] = "Heroic",
+						["qs"] = { [1]={["id"]=64598, ["boss"]=2440},},
+					},
+					[3] = {
+						["dif"] = "Normal",
+						["qs"] = { [1]={["id"]=64597, ["boss"]=2440},},
+					},
+				},
+			}, --raid2 end
+			[3] = {
+				["raidname"] = "SoTFO",
+				["raidid"] = 2481,
+				["rqs"] = {
+					-- anduin
+					[1] = {
+						["dif"] = "Mythic",
+						["qs"] = { [1]={["id"]=65762, ["boss"]=2469},},
+					},
+					[2] = {
+						["dif"] = "Heroic",
+						["qs"] = { [1]={["id"]=65763, ["boss"]=2469},},
+					},
+					[3] = {
+						["dif"] = "Normal",
+						["qs"] = { [1]={["id"]=65764, ["boss"]=2469},},
+					},
+				},
+			}, --raid3 end
+		},-- raidlist end
+	}, -- exp end
+	-- LE_EXPANSION_DRAGONFLIGHT
+	[5] = {
+		["expname"] = "Dragonflight",
+		["expid"] = LE_EXPANSION_DRAGONFLIGHT,
+		["raids"] = {
+			[1] = {
+				["raidname"] = "VoTI",
+				["raidid"] = 2522,
+				["rqs"] = {
+					-- broodkeeper diurna
+					[1] = {
+						["dif"] = "Mythic",
+						["qs"] = { [1]={["id"]=71020, ["boss"]=2493},},
+					},
+					[2] = {
+						["dif"] = "Heroic",
+						["qs"] = { [1]={["id"]=71019, ["boss"]=2493},},
+					},
+					[3] = {
+						["dif"] = "Normal",
+						["qs"] = { [1]={["id"]=71018, ["boss"]=2493},},
+					},
+				},
+			}, --raid1 end
+			[2] = {
+				["raidname"] = "AtSC",
+				["raidid"] = 2569,
+				["rqs"] = {
+					-- echo of neltharion
+					[1] = {
+						["dif"] = "Mythic",
+						["qs"] = { [1]={["id"]=76086, ["boss"]=2523},},
+					},
+					[2] = {
+						["dif"] = "Heroic",
+						["qs"] = { [1]={["id"]=76085, ["boss"]=2523},},
+					},
+					[3] = {
+						["dif"] = "Normal",
+						["qs"] = { [1]={["id"]=76083, ["boss"]=2523},},
+					},
+				},
+			}, --raid1 end
+			[3] = {
+				["raidname"] = "AtDH",
+				["raidid"] = 2549,
+				["rqs"] = {
+					-- smolderon
+					[1] = {
+						["dif"] = "Mythic",
+						["qs"] = { [1]={["id"]=78602, ["boss"]=2563},},
+					},
+					[2] = {
+						["dif"] = "Heroic",
+						["qs"] = { [1]={["id"]=78601, ["boss"]=2563},},
+					},
+					[3] = {
+						["dif"] = "Normal",
+						["qs"] = { [1]={["id"]=78600, ["boss"]=2563},},
 					},
 				},
 			}, --raid1 end

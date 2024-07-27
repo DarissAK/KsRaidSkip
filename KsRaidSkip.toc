@@ -1,10 +1,11 @@
-## Interface: 90002
+## Interface: 110000, 110002
 ## Title: Raid-skip tracking
 ## Notes: Addon for tracking raid-skip quests
-## Version: 1.2
-## Author: DarthKsane
+## Version: 20240727-01
+## Author: DarthKsane, Dariss
 ## OptionalDeps: Ace3, LibDataBroker-1.1
 ## DefaultState: enabled
+## X-Website: https://github.com/DarissAK/KsRaidSkip
 
 #@no-lib-strip@
 embeds.xml
