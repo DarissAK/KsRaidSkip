@@ -6,6 +6,7 @@ _G.Broker_ReoriginationArray = addon
 
 local ldb = LibStub:GetLibrary("LibDataBroker-1.1")
 local L = LibStub("AceLocale-3.0"):GetLocale(MODNAME)
+local GetAddOnMetadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
 
 local ICON_DONE = "|TInterface\\RaidFrame\\ReadyCheck-Ready:0|t"
 local ICON_NOTDONE = "|TInterface\\RaidFrame\\ReadyCheck-NotReady:0|t"
