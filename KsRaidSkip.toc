@@ -1,7 +1,7 @@
 ## Interface: 110000, 110002
 ## Title: Raid-skip tracking
 ## Notes: Addon for tracking raid-skip quests
-## Version: 20240727-01
+## Version: 20240819-01
 ## Author: DarthKsane, Dariss
 ## OptionalDeps: Ace3, LibDataBroker-1.1
 ## DefaultState: enabled
